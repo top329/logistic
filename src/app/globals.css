@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
+
+.ant-table-pagination-right {
+  justify-content: center !important;
+}
+
+.ant-modal-content {
+  padding: 0px !important;
+  background-color: #EEE8F4 !important;
+  border-radius: 28px !important;
+}
+
+.ant-drawer-body {
+  padding: 0px !important;
+}
+
+.ant-menu {
+  padding: 0px !important;
+}
+
+.ant-menu-item {
+  height: 50px !important;
+  /* width: 262px !important; */
+  border-radius: 0px !important;
+  padding-left: 16px !important;
+  padding-right: 16px !important;
+  padding-top: 2px !important;
+
+}
+
+.ant-menu-item:hover {
+  background: hsl(231, 42%, 16%) !important;
+  color: #ffffff !important;
+}
+
+.ant-menu-item:focus {
+  background: #181D3B !important;
+  color: #ffffff !important;
+}
+
+.ant-menu-item:active {
+  background: #181D3B !important;
+  color: #ffffff !important;
+}
+
+.ant-menu-item-selected {
+  background: #181D3B !important;
+  color: #ffffff !important;
+  position: relative;
+}
+
+.ant-menu-item-selected::after {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 100%;
+  left: 20%;
+  background-color: rgba(52, 58, 85, 0.5);
+  border-radius: 60%;
+  top: 25px !important;
+}
+
+.checkbox-round span {
+  border-radius: 15px !important;
+}
+
+.ant-tabs-nav-wrap {
+  background-color: #ffffff !important;
+}
+
+.ant-table-body {
+  background-color: #FFFBFE !important;
+}
+
+.ant-table-header {
+  background-color: #ffffff !important;
+}
+
+.ant-dropdown-menu {
+  padding: 16px !important;
+  background-color: #F4EFF4 !important;
+  border-radius: 20px !important;
+  border: 4px !important;
+}
+
+.ant-collapse-header {
+  align-items: center !important;
+}
+.ant-collapse-expand-icon{
+  margin-right: 16px !important;
+}
+.ant-collapse-content {
+  border: 0px !important;
+  border-radius: 25px !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #6750A4 !important; 
+  border-color: #6750A4 !important;
+}
